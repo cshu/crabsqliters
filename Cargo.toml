@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 log = "*"
 rusqlite = { version = "*", features = ["bundled"] }
-crabrs = { path = "../crabrs" }
+crabrs = { git = "https://github.com/cshu/crabrs" }
 
 [profile.release]
 debug = 1
